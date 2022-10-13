@@ -11,7 +11,11 @@ export class LoginPage implements OnInit {
 
   ngOnInit() {}
 
-  logIn() {
-    this.authService.login();
+  sampleLogIn() {
+    this.authService.sampleLogIn();
+  }
+
+  loginWithMetamask() {
+    this.authService.loginWithMetamask();
   }
 }

@@ -9,6 +9,10 @@ import { AuthService } from '../shared/services/auth.service';
 export class HomePage {
   constructor(private authService: AuthService) {}
 
+  sampleLogOut() {
+    this.authService.sampleLogOut();
+  }
+
   logOut() {
     this.authService.logOut();
   }
